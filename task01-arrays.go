@@ -5,5 +5,6 @@ func average(input [15]float32) (result float32) {
 	for _, i := range input {
 		sum += i
 	}
-	return sum / 15
+	result = sum / 15
+	return
 }
